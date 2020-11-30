@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomButtonView">
+        <attr name="btn1"></attr>
+        <attr name="btn2"></attr>
+        <attr name="btn3"></attr>
+    </declare-styleable>
+</resources>

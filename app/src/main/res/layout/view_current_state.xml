@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutCurrentState"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TableRow android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="기간 :"
+            android:textSize="@dimen/stateFontSize"/>
+
+        <TextView
+            android:id="@+id/textViewMonth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:layout_span="3"
+            android:text="6월" />
+
+    </TableRow>
+    <TableRow
+        android:layout_weight="1"
+        android:layout_margin="1dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:text="총 근무시간 : " />
+
+        <TextView
+            android:id="@+id/textViewTotalWorkTime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+
+            android:layout_span="3"
+            android:text="0시간" />
+
+    </TableRow>
+
+    <TableRow android:layout_weight="1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:text="총 연차 사용 : " />
+
+        <TextView
+            android:id="@+id/textViewUsedDayoff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:layout_marginRight="10dp"
+            android:text="0.0일" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:text="남은 연차 : " />
+
+        <TextView
+            android:id="@+id/textViewLeftDayoff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:text="0.0일" />
+
+    </TableRow>
+    <TableRow android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:text="연장 시간 : " />
+
+        <TextView
+            android:id="@+id/textViewOvertime"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:layout_marginRight="10dp"
+            android:text="00시간" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:text="특근 시간 : " />
+
+        <TextView
+            android:id="@+id/textViewHolidayWork"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/stateFontSize"
+            android:text="00시간" />
+    </TableRow>
+
+
+</TableLayout>
